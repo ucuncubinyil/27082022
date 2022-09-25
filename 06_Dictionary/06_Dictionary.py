@@ -122,7 +122,7 @@ Personel["cinsiyet"]    = cinsiyet
 print(f"Ad: {Personel['ad']},  Soyad: {Personel['soyad']} ")
 """
 
-#SORU: Bir firmanın İnsan kaynakları,Bilgi İşlem ve
+# SORU: Bir firmanın İnsan kaynakları,Bilgi İşlem ve
 # Muhasebe departmanlarının çalışan listelerini yöneticiden
 # isteyerek bir dict atınız
 # ve ekrana istenilen bölümdeki çalışanları listeyiniz.
@@ -149,18 +149,18 @@ for i in firma[secim]:
     print(i)
 """
 
-yasakli_karakter =  ['ı', 'ş', 'ğ', 'ö', 'ü', 'ç']
-uygun_karakter =  ['i', 's', 'g', 'o', 'u', 'c']
+yasakli_karakter = [ 'ı', 'ş', 'ğ', 'ö', 'ü', 'ç' ]
+uygun_karakter = [ 'i', 's', 'g', 'o', 'u', 'c' ]
 
-metin  =  input("Test için gir: ")
+metin = input( "Test için gir: " )
 
 for i in metin:
-    if i in yasakli_karakter:
-        indx = yasakli_karakter.index(i)
-        krkt = uygun_karakter[indx]
-        print(krkt)
-        metin = metin.replace(i, krkt)
-print(metin)
+	if i in yasakli_karakter:
+		indx = yasakli_karakter.index( i )
+		krkt = uygun_karakter[ indx ]
+		print( krkt )
+		metin = metin.replace( i, krkt )
+print( metin )
 
 """
 # SORU: sözlük uygulaması olsun Tr-Eng
@@ -187,3 +187,8 @@ print(metin)
         Kullanıcı 4'e basarsa ->
             - Döngü sonlanır..
 """
+
+liste = [ 1, 2, 3, 4 ]
+
+for i in range(len(liste)):
+	print(i, liste[i])
