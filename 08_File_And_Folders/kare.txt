@@ -1,0 +1,10 @@
+1 saysının karesi 1 !
+2 saysının karesi 4 !
+3 saysının karesi 9 !
+4 saysının karesi 16 !
+5 saysının karesi 25 !
+6 saysının karesi 36 !
+7 saysının karesi 49 !
+8 saysının karesi 64 !
+9 saysının karesi 81 !
+10 saysının karesi 100 !

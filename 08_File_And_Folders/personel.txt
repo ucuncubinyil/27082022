@@ -1,0 +1,2 @@
+AD: Ahmet          SOYAD:Turan               DOĞUM YILI:1995
+AD: Kemal          SOYAD:Bayraktar               DOĞUM YILI:1972
