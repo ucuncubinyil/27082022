@@ -114,8 +114,34 @@ bol =  Matematik.bol(1,2)
 print(bol)
 
 """
-
+"""
 from Ders import Ders
 
 ders =  Ders()
-ders.ders_kaydet()
+ders.ders_kaydet()"""
+
+from Personel import Personel
+
+# ahmet =  Personel()
+# ahmet.kaydet()
+
+Personel.oku()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
