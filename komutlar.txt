@@ -1,0 +1,7 @@
+pip install PyQt5
+pip install  pyqt5-tools
+
+
+ui dosyasını py ye cevirmek için
+
+pyuic5  dosyaadi.ui -o dosyaadi.py
